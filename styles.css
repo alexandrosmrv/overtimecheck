@@ -1,0 +1,95 @@
+body {
+   background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/G4S_%28logo%29.svg/1200px-G4S_%28logo%29.svg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+    display: inline;
+    color: white;
+    
+    }
+/* header Styles */
+    h1{
+    color: rgb(97, 31, 31);
+    background-color:rgb(217, 250, 244);
+    text-align: left;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+}
+/* main app text */
+.totalContent{
+    background-color: #2579df;
+    opacity: 0.9;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    border-style: outset;
+}
+/* button style */
+button{
+   background-color: black;
+   color: aliceblue;
+   border-radius: 10px;
+   height: fit-content;
+   width: 20rem;
+   margin-top: 2rem;
+   align-items: center;
+}
+/* inputs styles */
+input{
+    height: 2.5rem;
+    width:4.5rem;
+    border-style: none;
+    border-radius: 10px;
+    font-size: large;
+}
+#moneyOvertime-el
+{
+    margin-top: 1rem;
+margin-left: 12.1rem;
+}
+#restOFHoursOvertime-el{
+    margin-top: 1rem;
+    margin-left: 16.9rem;
+}
+#theEkApod-el{
+    margin-top: 1rem;
+    margin-left: 15.2rem;
+}
+/* footer styles */
+.para{
+    
+    position: fixed;
+    bottom: 0;
+    margin-left: 50%;
+    
+}
+/* after click message */
+#finalMessage-el{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    color: red;
+    
+}
+/* media query for responsivenes */
+@media only screen and (max-width: 600px) {
+ .forFlex{
+    display: flex;
+    flex-direction: column;
+}
+#hoursOvertime-el{
+    margin-left: 15rem;
+}
+
+#moneyOvertime-el{
+    margin-left: 19.2rem;
+}
+#restOFHoursOvertime-el{
+    
+    margin-left: 19rem;
+}
+#theEkApod-el{
+    
+    margin-left: 19rem;
+    } 
+}
