@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check overtime Hours over 20</title>
+    <link rel="stylesheet" href="/styles.css"></style>
+    <script src="./index.js" defer></script> </script>
+</head>
+<body>
+  <!-- header text -->
+  <div class="totalContent">
+    <div>
+    <h1>ΚΑΛΩΣ ΗΡΘΑΤΕ ΣΤΗΝ ΕΦΑΡΜΟΓΗ ΥΠΟΛΟΓΙΣΜΟΥ ΥΠΕΡΩΡΙΩΝ</h1>
+    <p> Η εφαρμογή υπολογίζει αν έχουν πληρωθεί σωστά οι ώρες <strong>υπερωρίας άνω των 20.</strong></p>
+      <p>Θα χρειαστεί να γνωρίζετε της συνολικές <strong>ώρες.</strong></p>
+      <p>΄Ωπως επισης να έχετε το <strong>εκκαθαριστικό</strong> σημείωμα μαζί σας</p>
+      <p>Ευχαριστώ.</p>
+    </div>
+      <!-- input <area  -->
+
+  <div class="forFlex">
+    <div>
+      <label>Βάλε τις ώρες που αναγράφονται στο πεδίο <strong>ΥΠΕΡΕΡΓΑΣΙΑ –Ημέρα</strong> χωρίς δεκαδικά:</label>
+      <input type="number" id="hoursOvertime-el" min="0" max="200">
+      </div>
+    <div>
+      <label for="">Βαλε το ποσό που αναγράφεται διπλά στις ώρες Ημέρας:</label>
+      <input type="number" id="moneyOvertime-el" min="0" max="1000">
+    </div>
+    <div>
+      <label for="">Βαλε τις ώρες που υπολείπονται άνω των 20:</label>
+      <input type="number" id="restOFHoursOvertime-el"min="0" max="200">
+    </div>
+    <div>
+      <label for="">Βαλε το ποσό από αναφέρει στο πεδιο Εκτ.Αποδ:</label>
+      <input type="number" id="theEkApod-el" min="0" max="1000">
+    </div>
+    <div>
+      <button onclick= "suma()">ΥΠΟΛΟΓΙΣΜΟΣ</button>
+    </div>
+    <div>
+      <!-- footer <area -->
+      <p id="finalMessage-el" ></p>
+    </div>
+  </div></div>
+  
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>   
+<p class="para">Design and Develop by A.M</p>
+</body>
+</html>
