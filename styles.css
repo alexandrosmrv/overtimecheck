@@ -61,8 +61,8 @@ footer{
     color:#2579df;
     position: fixed;
     bottom: 0;
-    margin-left: 50%;
-}
+    margin-left:50%
+   }
 /* after click message */
 #finalMessage-el{
     background-color: white;
@@ -92,4 +92,7 @@ footer{
     
     margin-left: 19rem;
     } 
+footer{
+        bottom: auto;
+    }
 }
