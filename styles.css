@@ -56,12 +56,12 @@ margin-left: 12.1rem;
     margin-left: 15.2rem;
 }
 /* footer styles */
-.para{
-    
+
+footer{
+    color:#2579df;
     position: fixed;
     bottom: 0;
     margin-left: 50%;
-    
 }
 /* after click message */
 #finalMessage-el{
@@ -78,7 +78,7 @@ margin-left: 12.1rem;
     flex-direction: column;
 }
 #hoursOvertime-el{
-    margin-left: 15rem;
+    margin-left: 19rem;
 }
 
 #moneyOvertime-el{
